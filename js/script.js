@@ -28,12 +28,15 @@ const titleClickHandler = function(event){
         activeArticle.classList.remove('active');
     }    
   
-    /* get 'href' attribute from the clicked link */
+    /*[DONE] get 'href' attribute from the clicked link */
+    const hrefAttrFromClickedEl = clickedElement.getAttribute('href');
     
-  
-    /* find the correct article using the selector (value of 'href' attribute) */
-  
-    /* add class 'active' to the correct article */
+    /* [DONE] find the correct article using the selector (value of 'href' attribute) */
+    const foundedArticle = document.querySelector(hrefAttrFromClickedEl);
+    
+    /* [DONE] add class 'active' to the correct article */
+   
+    foundedArticle.classList.add('active');
   }
   
   const links = document.querySelectorAll('.titles a');

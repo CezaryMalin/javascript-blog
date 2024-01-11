@@ -6,6 +6,7 @@
 //   });
 
 const titleClickHandler = function(event){
+    event.preventDefault();
     const clickedElement = this;
     console.log('clickedElement (with plus): ' + clickedElement);
 
@@ -16,7 +17,7 @@ const titleClickHandler = function(event){
         activeLink.classList.remove('active');
     }
   
-    /* [IN PROGRESS] add class 'active' to the clicked link */
+    /* [DONE] add class 'active' to the clicked link */
        
         clickedElement.classList.add('active');
     /* [DONE] remove class 'active' from all articles */

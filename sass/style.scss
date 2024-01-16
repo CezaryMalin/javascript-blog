@@ -16,7 +16,7 @@ $font-text: 'Source Sans Pro', sans-serif;
 }
 
 body {
-  background: $color-light;
+  background-color: #F0FFFF;
   font-family: $font-text;
   color: $color-dark;
   font-weight: 300;
@@ -57,7 +57,7 @@ body {
 }
 
 .sidebar, .posts {
-  background: $color-light;
+  background: #FFF8DC;
   margin-right: 10px;
   padding: 40px;
   border: 1px solid $color-dark;
@@ -78,6 +78,7 @@ body {
 
 .list {
   list-style-type: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   .active {
